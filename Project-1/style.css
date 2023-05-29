@@ -35,19 +35,19 @@ a.logo {
     height: auto;
 }
 .single-slide-bg-1{
-    background-image: url(Projects/hero-slide-1.jpg);
+    background-image: url(Images/hero-slide-1.jpg);
 }
 .single-slide-bg-2{
-    background-image: url(Projects/hero-slide-2.jpg);
+    background-image: url(Images/hero-slide-2.jpg);
 }
 .single-slide-bg-3{
-    background-image: url(Projects/hero-slide-3.jpg);
+    background-image: url(Images/hero-slide-3.jpg);
 }
 .section-bg{
     background-size: cover;
     background-position: center;
     height: 705px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .service-inner {
     display: table;
@@ -63,7 +63,7 @@ a.logo {
 
 /* slide-area-start */
 .middle-bg{
-    background-image: url(Projects/hero-slide-middle-1.jpg);
+    background-image: url(Images/hero-slide-middle-1.jpg);
 }
 /* .slide-area {
     position: absolute;
@@ -143,3 +143,87 @@ button.owl-next {
     top: 50%;
 }
 /* slide-area-end */
+
+/* about-us start */
+.about-us-title {
+    width: 50%;
+}
+img.img-style {
+    width: 100%;
+}
+.about-us {
+    padding: 70px 0;
+    position: relative;
+    padding-bottom: 70px;
+    height: 660px;
+}
+.shadow-gallery {
+    position: absolute;
+    right: 0px;
+    top: 71px;
+    width: 50%;
+    height: 83%;
+}
+.shadow-gallery img{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.shadow-gallery img:nth-child(1) {
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+.shadow-gallery img:nth-child(3) {
+    left: 4%;
+    z-index: 3;
+    max-width: 70%;
+    border-radius: 10px;
+    bottom: 100px;
+    height: 270px;
+    width: auto;
+    background-color: #ddd;
+}
+.shadow-gallery img:nth-child(2) {
+    position: absolute;
+    right: 145px;
+    top: 33px ;
+    z-index: 2;
+    width: 306px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+.about-us-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.about-us-title {
+    padding: 60px 0;
+}
+
+.about-us-title p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #858585;
+    margin-bottom: -20px;
+}
+
+.single-about-service-list h3 {font-size: 20px;font-weight: 500;color: #000;}
+
+.single-about-service-list {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.about-us-icon {
+    display: inline-block;
+    font-size: 50px;
+    color: #00CAD1;
+    margin-bottom: 5px;
+}
+/* about-us end */
