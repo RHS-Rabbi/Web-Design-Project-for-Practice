@@ -147,6 +147,7 @@ button.owl-next {
 /* about-us start */
 .about-us {
     padding: 60px 0;
+    padding-bottom: 0;
 }
 .about-us-icon {
     display: inline-block;
@@ -211,20 +212,21 @@ button.owl-next {
 /* about-us end */
 
 /* service-section start */
-/* .service-section {
+.service-section {
     overflow: hidden;
     margin: 70px 0;
 }
 
 .service-img img {
-    width: 675px;
-    height: 520px;
+    width: 706px;
+    height: 585px;
 }
 
 .single-service-item {
-    width: 76%;
+    width: 87%;
     margin-left: 100px;
     position: relative;
+    padding: 10px;
 }
 .service-icon .fa-star {
     line-height: 100px;
@@ -234,14 +236,52 @@ button.owl-next {
     font-size: 25px;
     font-weight: 500;
 }
-.service-icon {
+.single-service-item .fa-star {
     position: absolute;
     font-size: 40px;
-    top: 10px;
-    /* width: 100px;
-    height: 100px; */
-    /* text-align: center;
+    top: 50px;
+    text-align: center;
     color: rgb(11, 190, 187);
-    left: -105px; */
-} */
+    left: -82px;
+} 
+.service-img{
+    background-color: #ddd;
+    /* background-image: url(Images/service-bg.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+.service-section {
+    position: relative;
+    padding: 20px 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.service-img {
+    height: 100%;
+    position: absolute;
+    left: -151px;
+    top: 0;
+    width: 706px;
+}
+.single-service-item::after {
+    position: absolute;
+    left: -130px;
+    top: 0;
+    width: 160%;
+    height: 100%;
+    background: #0bbebb;
+    content: "";
+    visibility: hidden;
+    z-index: -1;
+}
+.single-service-item:hover::after {
+    visibility: visible;
+}
+.single-service-item:hover .fa-star, .single-service-item:hover{
+    color: #fff;
+}
 /* service--section end */
+
+/* our-skill--section start */
+
+/* our-skill--section end */
