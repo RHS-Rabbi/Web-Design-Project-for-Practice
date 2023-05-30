@@ -282,6 +282,39 @@ button.owl-next {
 }
 /* service--section end */
 
+
+
 /* our-skill--section start */
+.section-title {
+    margin-bottom: 50px;
+}
+
+.single-our-skill-circle-progressbar {
+    text-align: center;
+}
+
+.circle-progress-wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+span.progressbar-parcentage {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 0;
+}
+.single-our-skill-circle-progressbar h3 {
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.our-skill-section {
+    padding: 70px 0;
+}
 
 /* our-skill--section end */
