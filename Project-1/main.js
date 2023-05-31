@@ -42,6 +42,12 @@ $(document).ready(function () {
                 }).on('circle-animation-progress', function(event, progress) {
                     $(this).find('.progressbar-parcentage').html(Math.round(84 * progress) + '<i>%</i>');
                 });;
+
+                $('.portfolio-list').masonry({
+                    // options
+                    itemSelector: '.grid-item',
+                    columnWidth: 200
+                  }); 
 });
 
 
