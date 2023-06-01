@@ -49,6 +49,23 @@ $(document).ready(function () {
                     columnWidth: 200
                   }); 
 });
+$(document).ready(function () {
+    $('#owl-2 .owl-carousel').owlCarousel(
+        {
+          items: 3,
+          loop: true,
+          nav: false,
+          // navText: ['<i class="fa-solid fa-arrow-left"></i>','<i class="fa-solid fa-arrow-right"></i>'],
+          autoplay: false,
+          autoplaySpeed: 500,
+          animateOut: 'fadeOut',
+          animateIn: 'fadeIn',
+          dots: true,
+        }
+      );
+    });
+
+
 
 
 
