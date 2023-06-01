@@ -529,11 +529,12 @@ a.cta-border-btn {
   
     position: relative;
     z-index: 1;
-    height: 600px;
+    height: 670px;
     padding: 60px 0;
     background-position: left;
     margin-top: 50px;
     color: #fff;
+    margin-bottom: 100px;
 }
 .single-testimonial-list p.demo {
     font-size: 13px;
@@ -563,6 +564,9 @@ a.cta-border-btn {
 .owl-theme .owl-dots .owl-dot.active span {
     background: #14C2CD;
 }
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 40px !important;
+}
 /* .owl-theme .owl-dots .owl-dot span{
     background: #fff;
 }
@@ -570,3 +574,18 @@ a.cta-border-btn {
     background: #fff;
 } */
 /* tesimonial-section--section end */
+
+/* brand-section--section start */
+.brand-section {
+    padding: 50px 0;
+}
+.single-brand-list {
+    float: left;
+    width: 19%;
+    margin: 5px;
+    text-align: center;
+}
+.single-brand-list img {
+    width: 100%;
+}
+/* brand-section--section end */
