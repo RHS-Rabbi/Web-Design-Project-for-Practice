@@ -12,7 +12,6 @@ $(document).ready(function () {
           dots: false,
         }
       );
-
       $('#web-progressbar').circleProgress({
         value: .90,
         size: 200,
@@ -42,13 +41,16 @@ $(document).ready(function () {
                 }).on('circle-animation-progress', function(event, progress) {
                     $(this).find('.progressbar-parcentage').html(Math.round(84 * progress) + '<i>%</i>');
                 });;
-
+      
                 $('.portfolio-list').masonry({
                     // options
                     itemSelector: '.grid-item',
                     columnWidth: 200
                   }); 
+
 });
+
+
 $(document).ready(function () {
     $('#owl-2 .owl-carousel').owlCarousel(
         {
@@ -64,6 +66,22 @@ $(document).ready(function () {
         }
       );
     });
+    $(document).ready(function () {
+      $('#owl-3 .owl-carousel').owlCarousel(
+          {
+            items: 3,
+            loop: true,
+            nav: false,
+            // navText: ['<i class="fa-solid fa-arrow-left"></i>','<i class="fa-solid fa-arrow-right"></i>'],
+            autoplay: false,
+            autoplaySpeed: 500,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            dots: true,
+            margin: 10,
+          }
+        );
+      });
 
 
 
