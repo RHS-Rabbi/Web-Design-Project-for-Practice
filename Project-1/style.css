@@ -468,6 +468,9 @@ a.cta-border-btn {
 /* project-section--section end */
 
 /* team-section--section strat */
+.single-listing-box h3 {
+    font-size: 22px;
+}
 .section-team {
     padding: 50px 0;
 }
