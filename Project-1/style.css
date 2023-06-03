@@ -209,7 +209,14 @@ button.owl-next {
 .single-about-service-list {
     text-align: center;
     float: left;
-    width: 50%;
+    width: 49%;
+}
+.single-about-service-list p {
+    font-size: 14px;
+    color: #8C8C8C;
+}
+.single-about-service-list h3 {
+    font-size: 20px;
 }
 .about-us-title {
     padding: 25px 0;
