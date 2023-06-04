@@ -1,0 +1,97 @@
+@font-face {
+    font-family: myriad;
+    src: url(Font/Myriad\ Pro\ Regular.ttf);
+}
+body{
+    font-family: myriad;
+}
+
+/* header-area start */
+.hero-area {
+    border-bottom: 1px solid #F6F6F6;
+}
+a.site-logo img {
+    width: 55px;
+    display: inline-block;
+}
+
+.header-area {
+    padding: 16px;
+}
+
+.mainmenu {
+    padding: 0;
+    margin: 0;
+}
+
+.mainmenu ul {
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.mainmenu li a {
+    display: block;
+    padding-left: 31px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.mainmenu li a:hover {
+    color: #EF466F;
+}
+
+a.bordered-btn {
+    background: #EF466F;
+    padding: 10px 34px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* .header-area-end */
+
+/* .middle-area-start */
+.middle-area {
+    padding: 60px 0;
+}
+
+.section-title {
+    padding-top: 45px;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    color: #373737;
+}
+
+.section-title p {
+    font-size: 15px;
+    color: #999999;
+}
+input[type="email"] {
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid #EFEFEF;
+}
+a.bordered-btn-middle {
+    display: inline-block;
+    margin-left: 18px;
+    background: #EF476F;
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 170px;
+    text-align: center;
+    color: #fff;
+}
+.middle-bg img {
+    width: 470px;
+    height: 360px;
+}
+/* .middle-area-end */
