@@ -121,6 +121,7 @@ a.bordered-btn-middle {
     border: 1px solid #C7C7C7;
     border-radius: 5px;
     margin-bottom: 45px;
+    line-height: 24px;
 }
 
 .single-service-item h3 {
@@ -159,3 +160,39 @@ a.border-less-service-btn .fa-solid {
     filter: invert(38%) sepia(36%) saturate(2328%) hue-rotate(311deg) brightness(98%) contrast(92%);
 }
 /* .service-section-end */
+/* how-it-work-section-start */
+.how-it-work-section {
+    padding: 10px 0;
+}
+
+.how-title {
+    padding: 72px 0;
+}
+
+.how-title h2 {
+    font-size: 28px;
+}
+.how-title p {
+    font-size: 15px;
+    width: 75%;
+    margin-bottom: 35px;
+    color: #989898;
+}
+
+a.bordered-btn-how {
+    text-decoration: none;
+    padding: 14px 40px;
+    background: #EF476F;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.how-title h2 {
+    margin-bottom: 25px;
+}
+.how-it-work-bg img {
+    width: 541px;
+    height: 360px;
+}
+/* how-it-work-section-end */
