@@ -95,3 +95,67 @@ a.bordered-btn-middle {
     height: 360px;
 }
 /* .middle-area-end */
+/* .service-section-start */
+.service-title {
+    margin-bottom: 100px;
+}
+.service-title h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.service-title p {
+    font-size: 15px;
+    color: #999999;
+    margin-bottom: 60px
+}
+
+.service-section {
+    padding: 120px 0;
+}
+.single-service-item {
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+.single-service-item h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.single-service-item p {
+    font-size: 15px;
+    color: #C7C7C7;
+}
+.single-service-item:hover {
+    border: 1px solid #F0476E;
+}
+
+
+a.border-less-service-btn {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+}
+.single-service-item:hover,.single-service-item h3:hover{
+    color: #F0476E;
+}
+a.border-less-service-btn .fa-solid {
+    display: inline-block;
+    padding-left: 6px;
+}
+.single-service-item:hover a.border-less-service-btn  {
+    color: red;
+}
+.single-service-item:hover img {
+    filter: invert(38%) sepia(36%) saturate(2328%) hue-rotate(311deg) brightness(98%) contrast(92%);
+}
+/* .service-section-end */
