@@ -524,3 +524,86 @@ a.pricing-btn {
     cursor: pointer;
 }
 /* brands-section-end */
+
+* copy-section-start */
+i.fa-brands {
+    font-size: 14px;
+    padding: 5px;
+}
+.footer-area{
+    background: #FDFDFD;
+    margin-bottom: 85px
+}
+h5.footer-title {
+    font-size: 20px;
+}
+
+.mainmenu-2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mainmenu-2 li a {
+    font-size: 15px;
+    color: #9A9A9A;
+    text-decoration: none;
+}
+
+.mainmenu-2 {
+    line-height: 22px;
+}
+.footer-hero {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h5.footer-title {
+    padding-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 200px;
+    height: 45px;
+    background: #F6F6F6;
+    border: none;
+}
+input[type="submit"] {
+    width: 100px;
+    height: 45px;
+    border: none;
+    background: #EE486E;
+    color: #fff;
+}
+h5.Social {
+    display: block;
+    margin-left: 140px;
+    margin-bottom: 15px;
+}
+form.form-2 {
+    margin-left: 35px;
+}
+.social-link li {list-style: none;display: inline-block;}
+
+.social-link li a {
+    padding-left: 60px;
+    color: #000;
+    text-decoration: none;
+    color: #999999;
+}
+
+.social-link {
+    display: inline-block;
+    margin-left: 80px;
+    
+}
+.copy-right-area {
+    background: #F7F7F7;
+    padding: 35px 0;
+    padding-bottom: 20px;
+}
+.social-link li a:hover {color: #EE486E;}
+.copy-text p {
+    font-size: 14px;
+    color: #999999;
+}
+/* copy-section-end */
