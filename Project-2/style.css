@@ -505,3 +505,22 @@ a.pricing-btn {
     font-weight: 400;
 }
 /* pricing-section-end */
+
+/* brands-section-start */
+.single-brand-item {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.brands-section {
+    padding: 0px 0;
+    padding-bottom: 110px;
+}
+.single-brand-item:hover img {
+    filter: invert(40%) sepia(33%) saturate(4826%) hue-rotate(321deg) brightness(99%) contrast(90%);
+}
+.single-brand-item img{
+    cursor: pointer;
+}
+/* brands-section-end */
