@@ -341,3 +341,24 @@ a.bordered-btn-how {
     background: #EE486E;
 }
 /* testimonial-section-section-end */
+
+/* cta-area-section-start */
+.cta-area-section {
+    padding: 60px 0;
+    background: #F8F8F8;
+}
+
+.cta-title h3 {
+    font-size: 28px;
+}
+
+a.cta-bordered-btn {
+    text-align: right;
+    padding: 15px 32px;
+    background: #F04770;
+    color: #fff;
+    font-weight: 200;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* cta-area-section-end */
