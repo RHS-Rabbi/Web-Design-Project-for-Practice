@@ -74,7 +74,7 @@ a.bordered-btn {
     font-size: 15px;
     color: #999999;
 }
-input[type="email"] {
+.form-1 input[type="email"] {
     padding: 10px 15px;
     font-size: 15px;
     width: 300px;
@@ -84,11 +84,12 @@ a.bordered-btn-middle {
     display: inline-block;
     margin-left: 18px;
     background: #EF476F;
-    padding: 10px 15px;
+    padding: 11px 15px;
     font-size: 14px;
     width: 170px;
     text-align: center;
     color: #fff;
+    text-decoration: none;
 }
 .middle-bg img {
     width: 470px;
@@ -525,85 +526,74 @@ a.pricing-btn {
 }
 /* brands-section-end */
 
-* copy-section-start */
-i.fa-brands {
-    font-size: 14px;
-    padding: 5px;
-}
-.footer-area{
-    background: #FDFDFD;
-    margin-bottom: 85px
+/* footer-section-start */
+.footer-area {
+    padding-bottom: 100px;
 }
 h5.footer-title {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
-
 .mainmenu-2 ul {
-    list-style: none;
     padding: 0;
+    list-style: none;
+    margin: 0;
 }
-
 .mainmenu-2 li a {
     font-size: 15px;
-    color: #9A9A9A;
+    color: #979797;
     text-decoration: none;
 }
-
 .mainmenu-2 {
-    line-height: 22px;
+    line-height: 24px;
 }
+
 .footer-hero {
-    text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
-h5.footer-title {
-    padding-bottom: 20px;
-}
-
-input[type="email"] {
-    width: 200px;
-    height: 45px;
-    background: #F6F6F6;
-    border: none;
-}
-input[type="submit"] {
-    width: 100px;
-    height: 45px;
-    border: none;
-    background: #EE486E;
-    color: #fff;
-}
 h5.Social {
-    display: block;
-    margin-left: 140px;
-    margin-bottom: 15px;
-}
-form.form-2 {
-    margin-left: 35px;
-}
-.social-link li {list-style: none;display: inline-block;}
-
-.social-link li a {
-    padding-left: 60px;
-    color: #000;
-    text-decoration: none;
-    color: #999999;
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin: 0;
 }
 
+.social-link li {list-style: none;display: inline-block;padding: 5px 0;}
+
+.social-link li a {padding-left: 16px;font-size: 14px;color: #999999;text-decoration: none;}
+.social-link li a:hover {
+    color: #F04770;
+}
 .social-link {
     display: inline-block;
-    margin-left: 80px;
-    
+    margin-left: -15px;
 }
+
+.form-2 input[type="email"] {
+    border: none;
+    background: #F6F6F6;
+    padding: 10px 8px;
+}
+
+
+.form-2 input[type="submit"] {
+    padding: 12px 14px;
+    border: none;
+    margin: -4px;
+    background:  #F04770;
+    color: #fff;
+    font-size: 14px;
+}
+/* footer-section-section-end */
+
+/* copy-area-section start */
 .copy-right-area {
     background: #F7F7F7;
-    padding: 35px 0;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    padding-bottom: 0px;
 }
-.social-link li a:hover {color: #EE486E;}
 .copy-text p {
     font-size: 14px;
     color: #999999;
 }
-/* copy-section-end */
+/* copy-area-section end */
