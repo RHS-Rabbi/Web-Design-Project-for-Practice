@@ -7,6 +7,9 @@ body{
 }
 
 /* header-area start */
+nav.navbar.navbar-expand-lg.navbar-light {
+    width: 100%;
+}
 .hero-area {
     border-bottom: 1px solid #F6F6F6;
 }
@@ -273,7 +276,7 @@ a.bordered-btn-how {
     z-index: 2;
 }
 
-.slide-area-case::after {
+/* .slide-area-case::after {
     position: absolute;
     top: -1px;
     width: 500%;
@@ -281,7 +284,7 @@ a.bordered-btn-how {
     background: #FBFBFB;
     content: "";
     right: 100%;
-}
+} */
 .case-study-section {
     padding: 100px 0;
     background: #FBFBFB;

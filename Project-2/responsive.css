@@ -1,0 +1,63 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+
+
+/* Tablet + Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+
+  
+}
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    a.bordered-btn {
+        margin: auto;
+    }
+  
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    a.site-logo img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    a.bordered-btn-middle {
+       margin-left: 0px;
+    }
+    .how-it-work-bg img {
+        width: 100%;
+        height: auto;
+    }
+    .single-brand-item img {
+        width: 75%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    a.bordered-btn {
+        margin: auto;
+    }
+    .form-1 input[type="email"] {
+        margin-bottom: 10px;
+    }
+    .pricing-info::after {
+        left: 75px;
+    }
+}
