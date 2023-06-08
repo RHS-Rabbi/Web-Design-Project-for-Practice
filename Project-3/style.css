@@ -301,6 +301,7 @@ p.testimonial-demo {
     display: table;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
 }
 .single-case-item::after {
     position: absolute;
@@ -317,6 +318,7 @@ p.testimonial-demo {
     opacity: 0;
     visibility: hidden;
     z-index: -1;
+    border-radius: 5px;
 }
 
 .single-case-item:hover::after {
