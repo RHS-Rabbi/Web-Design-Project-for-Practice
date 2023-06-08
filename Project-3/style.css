@@ -514,3 +514,65 @@ a.cta-btn {
     border-radius: 5px;
     font-size: 14px;
 }
+
+
+/*footer-section start */
+a.sites-logo img {
+    width: 55px;
+    display: inline-block;
+}
+.logo-title {
+    font-size: 15px;
+    color: #999999;
+    margin-top: 44px;
+}
+.footer-section {
+    margin-bottom: 80px;
+    padding: 100px 0;
+}
+
+.footer-mainmenu ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-mainmenu li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-title h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-mainmenu {
+    line-height: 30px;
+}
+.footer-mainmenu .fa-brands {
+    display: inline-block;
+    padding: 8px;
+    color: black;
+}
+.footer-mainmenu li a:hover {
+    color: #F0587E;
+}
+.footer-mainmenu li a:hover .fa-brands{
+    color: #F0587E;
+}
+
+/*footer-section-end */
+
+/*copy-section-start */
+.copy-right-section{
+    background-color: #F6F6F6;
+}
+.copy-text {
+    margin: 0;
+    padding: 18px;
+}
+.copy-text p {
+    font-size: 15px;
+    color: #989898;
+}
+/*copy-section-end */
+
