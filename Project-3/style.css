@@ -436,3 +436,52 @@ a.price-btn {
     margin-top: 60px;
 }
 /*pricing-section-end */
+
+/*blog-section start */
+.blog-section {
+    padding: 125px 0;
+}
+.blog-section {
+    padding: 125px 0;
+}
+
+.blog-title h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.blog-title p {
+    margin-bottom: 80px;
+    color: #989898;
+}
+.single-blog-list {
+    border: 1px solid #ddd;
+    height: 300px;
+    border-radius: 5px;
+   width: 360px;
+}
+.single-blog-list:hover {
+    background: #FBFBFB;
+}
+.blog-info p {
+    font-size: 15px;
+    color: #989898;
+}
+
+.blog-info {
+    display: inline-block;
+    margin-left: 21px;
+    margin-top: 60px;
+}
+.blog-info h5 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+a.blog-borderless-btn {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #44DDAE;
+}
+
+/*blog-section-end */
