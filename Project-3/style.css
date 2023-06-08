@@ -368,3 +368,71 @@ a.case-study-btn .fa-solid {
     color: #A9A9A9;
 }
 /*case-study-section-end */
+
+/*pricing-section start */
+.pricing-title h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.pricing-title p {
+    font-size: 15px;
+    color: #999999;
+}
+.single-pricing-list:hover .price-tag, .single-pricing-list:hover p.price-2 {
+    color: #57BAFE;
+}
+.pricing-title {
+    margin-bottom: 80px;
+}
+.single-pricing-list {
+    text-align: center;
+    border: 1px solid #F3F3F3;
+    height: 525px;
+    border-radius: 5px;
+}
+
+.price-tag {
+    background: #FBFBFB;
+    height: 195px;
+    padding: 42px 0;
+}
+
+.price-tag h5 {
+    font-size: 20px;
+}
+
+.price-tag span {
+    font-size: 40px;
+    color: #09BAFE;
+}
+
+p.price-2 {
+    font-size: 14px;
+    color: #999999;
+}
+.price-demo {
+    line-height: 35px;
+    padding-top: 50px;
+}
+
+.price-demo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-demo li {
+    font-size: 17px;
+    color: #999999;
+}
+a.price-btn {
+    display: block;
+    background: #2DCC70;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+/*pricing-section-end */
