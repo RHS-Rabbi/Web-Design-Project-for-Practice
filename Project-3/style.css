@@ -7,6 +7,10 @@ body{
 }
 
 /* header-area start */
+ul.navbar-nav li a {
+    display: block;
+    margin-left: 20px;
+}
 nav.navbar.navbar-expand-lg.navbar-light {
     width: 100%;
 }
@@ -98,6 +102,15 @@ form.form-1 {
     padding: 10px;
     margin: 16px;
     border: 1px solid #E8E8E8;
+    font-size: 14px;
+    color: #999999;
+    font-size: 12px;
+}
+::placeholder {
+    color: #A3A3A3;
+}
+.form-1 input[type="text"], input[type="email"]:focus{
+    outline: none;
 }
 .table-form a.middle-btn {
     display: inline-block;
@@ -137,14 +150,14 @@ form.form-1 {
 
 /* about-us-section start */
 .about-img img {
-    width: 25%;
-    border-radius: 50%;
-    height: 135px;
+    width: 150px;
+    height: 150px;
     padding: 0px;
     box-shadow: 0px 0 20px #E9E9E9;
     border: none;
     margin-left: 18px;
     margin-top: 15px;
+    clip-path: circle();
 }
 .about-img {
     height: 100%;
@@ -527,7 +540,7 @@ a.sites-logo img {
     margin-top: 44px;
 }
 .footer-section {
-    margin-bottom: 80px;
+    margin-bottom: 0;
     padding: 100px 0;
 }
 
@@ -550,8 +563,9 @@ a.sites-logo img {
 }
 .footer-mainmenu .fa-brands {
     display: inline-block;
-    padding: 8px;
+    padding: 7px;
     color: black;
+    padding-left: 0;
 }
 .footer-mainmenu li a:hover {
     color: #F0587E;
@@ -559,7 +573,11 @@ a.sites-logo img {
 .footer-mainmenu li a:hover .fa-brands{
     color: #F0587E;
 }
+.margin-left {margin: 50px;}
 
+.footer-title {
+    margin-top: -54px;
+}
 /*footer-section-end */
 
 /*copy-section-start */
@@ -569,6 +587,7 @@ a.sites-logo img {
 .copy-text {
     margin: 0;
     padding: 18px;
+    padding-bottom: 0;
 }
 .copy-text p {
     font-size: 15px;
