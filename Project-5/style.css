@@ -78,7 +78,6 @@ body{
     font-size: 16px;
     display: block;
     padding-left: 32px;
-      font-weight: 600;
 }
 .site-logo img {
     width: 50px;
@@ -136,4 +135,58 @@ form.form-1 {
     outline: none;
 }
 /* middle-section end */
-/* header-section end */
+
+
+/* about-us-section start */
+.about-title h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.about-title p {
+    font-size: 15px;
+    color: #999999;
+}
+
+.about-title {
+    margin-bottom: -40px;
+    padding: 70px 0;
+}
+.about-us-section {
+    padding: 120px 0;
+}
+.bg-gellery img {
+    width: 100%;
+    height: 100%;
+}
+.bg-gellery img:nth-child(2) {
+    position: absolute;
+    right: 60px;
+    width: 300px;
+    height: 400px;
+    z-index: -2;
+    border-radius: 5px;
+    box-shadow: 0 10px 12px 0px #D5D5D5;
+}
+.bg-gellery img:nth-child(1) {
+    width: 300px;
+    height: 400px;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 0 10px 12px 0px #D5D5D5;
+    margin-left: 20px;
+}
+
+.bg-gellery {
+    display: inline-block;
+}
+a.about-btn {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+a.about-btn:hover {
+    color: #06d6a0;
+}
+/* about-us-section end */
