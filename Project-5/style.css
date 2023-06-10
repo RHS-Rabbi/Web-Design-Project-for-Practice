@@ -258,3 +258,43 @@ a.about-btn:hover {
 
 }
 /* services-section end */
+
+/* video-section start */
+.video-bg{
+    background-image: url(Images/project-5-video-bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.video-bg {
+    margin-top: 40px;
+    height: 400px;
+    padding: 100px 0;
+    color: #fff;
+}
+.video-title h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.video-title p {
+    font-size: 15px;
+    color: #CACBCD;
+}
+
+
+.video-btn i.fa.fa-play {
+    width: 70px;
+    height: 70px;
+    background: #06d6a0;
+    line-height: 70px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.video-title {
+    margin-bottom: 40px;
+}
+/* video-section end */
