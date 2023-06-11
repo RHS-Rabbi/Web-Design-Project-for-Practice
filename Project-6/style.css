@@ -78,11 +78,11 @@ a.header-bordered-btn {
     font-size: 36px;
     color: #fff;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .middle-title p {
-    color: #FEFFFF;
+    color: #F9F8FD;
     font-size: 22px;
 }
 
@@ -152,6 +152,133 @@ a.border-less-service-btn .fa-solid {
     padding: 120px 0;
 }
 /* .service-section-end */
+
+/* cta-section start */
+.cta-bg{
+    background-image: url(Images/project-6-cta-bg-1.jpg);
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.cta-bg::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #073b4c;
+    content: "";
+    opacity: .5;
+    z-index: -1;
+}
+
+.cta-title h2 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.cta-section {
+    padding: 65px 0;
+}
+
+.cta-title p {
+    width: 65%;
+    color: #FEFEFC;
+    margin: auto;
+    font-size: 16px;
+}
+a.cta-btn {
+    background: #06d6a0;
+    color: #fff;
+    padding: 12px 40px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+/* .cta-section-end */
+
+/* footer-section-start */
+.footer-area {
+    padding: 100px 0;
+}
+h5.footer-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.mainmenu-2 ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.mainmenu-2 li a {
+    font-size: 15px;
+    color: #979797;
+    text-decoration: none;
+}
+.mainmenu-2 {
+    line-height: 24px;
+}
+
+.footer-hero {
+    padding-bottom: 40px;
+}
+
+h5.Social {
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.mainmenu-2 li a:hover {
+    color: #06D7A0;
+}
+.social-link li {list-style: none;display: inline-block;padding: 5px 0;}
+
+.social-link li a {padding-left: 16px;font-size: 14px;color: #999999;text-decoration: none;}
+.social-link li a:hover {
+    color: #06D7A0;
+}
+.social-link {
+    display: inline-block;
+    margin-left: -15px;
+}
+
+.form-2 input[type="email"] {
+    border: none;
+    background: #F6F6F6;
+    padding: 10px 8px;
+}
+.social-link .fa-brands {
+    display: inline-block;
+    margin: 2px;
+}
+
+.form-2 input[type="submit"] {
+    padding: 12px 14px;
+    border: none;
+    margin: -4px;
+    background:  #06D7A0;
+    color: #fff;
+    font-size: 14px;
+}
+/* footer-section-section-end */
+
+/* copy-area-section start */
+.copy-right-area {
+    background: #F7F7F7;
+    padding: 20px 0;
+    padding-bottom: 0px;
+}
+.copy-text p {
+    font-size: 14px;
+    color: #999999;
+}
+/* copy-area-section end */
+
 
 
 
