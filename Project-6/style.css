@@ -6,7 +6,10 @@ body{
     font-family: myriad;
 }
 
-
+::placeholder {
+    font-size: 13px;
+    color: #999999;
+}
 
 /* header-area start */
 ul.navbar-nav li a {
