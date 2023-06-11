@@ -40,6 +40,25 @@
     .cta-bg-1 {
         height: 100%;
     }
+    .site-logo img {
+        position: absolute;
+        left: 50%;
+        top: -44px;
+    }
+    .header-area i.fa {
+        position: absolute;
+        top: -30px;
+    }
+    .hero-bg {
+        height: auto;
+    }
+    .middle-title h2 {
+        font-size: 30px;
+    }
+    .middle-title p {
+        width: 75%;
+        font-size: 14px;
+    }
 }
 
 
