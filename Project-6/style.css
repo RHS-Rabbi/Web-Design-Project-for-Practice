@@ -1,0 +1,104 @@
+@font-face {
+    font-family: myriad;
+    src: url(Font/Myriad\ Pro\ Regular.ttf);
+}
+body{
+    font-family: myriad;
+}
+
+
+
+/* header-area start */
+ul.navbar-nav li a {
+    display: block;
+    margin-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #06D7A0;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    width: 100%;
+}
+a.site-logo img {
+    width: 55px;
+    display: inline-block;
+}
+
+.header-area {
+    padding: 16px;
+}
+
+.mainmenu {
+    padding: 0;
+    margin: 0;
+}
+
+.mainmenu ul {
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.mainmenu li a {
+    display: block;
+    padding-left: 31px;
+    color: #888888;
+    text-decoration: none;
+}
+
+
+a.header-bordered-btn {
+    background: #06D7A0;
+    padding: 10px 34px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* .header-area-end */
+
+/* middle-section-end */
+.middle-bg{
+    background-image: url(Images/project-6-middle-bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 420px;
+}
+.middle-title {
+    padding: 167px 0;
+}
+
+.middle-title h2 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.middle-title p {
+    color: #FEFFFF;
+    font-size: 22px;
+}
+
+.middle-section::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #073b4c;
+    opacity: .5;
+    z-index: -1;
+}
+/* middle-section-end */
+
+
+
+
