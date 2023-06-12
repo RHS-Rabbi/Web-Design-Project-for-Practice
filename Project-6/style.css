@@ -205,7 +205,6 @@ a.cta-btn {
     text-decoration: none;
 }
 /* .cta-section-end */
-
 /* footer-section-start */
 .footer-area {
     padding: 100px 0;
@@ -254,22 +253,30 @@ h5.Social {
 .form-2 input[type="email"] {
     border: none;
     background: #F6F6F6;
-    padding: 10px 8px;
-}
-.social-link .fa-brands {
-    display: inline-block;
-    margin: 2px;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
-.form-2 input[type="submit"] {
-    padding: 12px 14px;
+.form-2 input[type="email"]:focus {
+    outline: none;
+}
+button {
+    padding: 11px 25px;
     border: none;
-    margin: -4px;
-    background:  #06D7A0;
+    background: #06D7A0;
+    display: inline;
+    margin-left: -3px;
     color: #fff;
     font-size: 14px;
+    padding-top: 12px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
-/* footer-section-section-end */
+.margin-left {
+    padding-left: 65px;
+}
+/* footer-section-section-end *//
 
 /* copy-area-section start */
 .copy-right-area {
