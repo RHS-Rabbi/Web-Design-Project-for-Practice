@@ -228,7 +228,10 @@ h5.footer-title {
     text-decoration: none;
 }
 .mainmenu-2 {
-    line-height: 24px;
+    line-height: 30px;
+}
+form.form-2 {
+    margin-top: 43px;
 }
 
 .footer-hero {
